@@ -9,7 +9,7 @@ import { AIMessage, ChatMessage, HumanMessage } from "langchain/schema";
 import { BufferMemory, ChatMessageHistory } from "langchain/memory";
 import { createOrUpdateFormResultForUser } from './action';
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 // export async function aiFunction(endpoint: string, showIntermediateStepsToggle: boolean, formData: string) {
 //   console.log("Ai Function Trigger")
