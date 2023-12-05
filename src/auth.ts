@@ -11,7 +11,8 @@ export const authConfig = {
       session.user.id = user.id
       return session
     },
-  }
+  },
+  trustHost: true,
 } satisfies NextAuthConfig
 
 export const { 
